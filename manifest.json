@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Binusmaya Schedule",
+  "version": "2.0.0",
+  "description": "Lihat jadwal Binusmaya dengan ringkas",
+  "permissions": ["activeTab", "scripting", "clipboardWrite", "storage"],
+  "host_permissions": ["https://lms.binus.ac.id/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://lms.binus.ac.id/*"],
+      "js": ["src/content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Binusmaya Schedule"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

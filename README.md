@@ -1,5 +1,9 @@
 # BINUS Schedule
 
+<p align="center">
+  <img src="assets/screenshot.png" alt="BINUS Schedule" width="400">
+</p>
+
 A Chrome extension that displays your Binusmaya class schedule in a clean, minimal interface. Scrapes schedule data directly from the LMS and presents it with type-based filtering, instant search, and calendar export.
 
 ## Features
